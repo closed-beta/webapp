@@ -72,9 +72,9 @@
     </div>
     <div class="item" style="width: 300px;">
       <h4>Channel Types:</h4>
-	  <p>Channel types/roles are used mostly with TuyaMCU devices. They are for more advanced users. Channel types/roles can be also used while making advanced scriptable devices and for testing.</p>
-	  <p>Setting a type for given channel may cause a special control to appear on main native WWW page. For example, a slider for dimmer channel or a radio selection box for a fan speed channel.</p>
-	  <p>Do not edit unless you know what you're doing.</p>
+	  <p>Channel types/roles primarily find application in TuyaMCU devices and are intended for advanced users. Additionally, these channel types/roles can be employed in the development of sophisticated scriptable devices and for testing purposes.</p>
+	  <p>Assigning a specific type to a channel can trigger the display of a specialized control on the main native WWW page. For instance, a slider may appear for a dimmer channel, or a radio selection box may be displayed for a fan speed channel.</p>
+	  <p>Exercise caution and refrain from making edits unless you are knowledgeable about the implications.</p>
       <div v-for="(role, index) in channelTypes.types" :key="index">
         <span class="channel-index">{{index}}</span>
         <select v-model="channelTypes.types[index]">
