@@ -1,11 +1,5 @@
 # OpenBekenIOT Web App
 
-<<<<<<< HEAD
-## Just a test
-### It's just a test 2
-
-=======
->>>>>>> parent of b3fd1c3 (Update README.md)
 This repo publishes a simple javascript webb app to
 
 https://openbekeniot.github.io/webapp/
