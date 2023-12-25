@@ -53,7 +53,7 @@
 
     <div class="item" style="width: 300px;">
       <h4>Pin Settings:</h4>
-	  <p>Here you can configure your device. Remember that some pin roles require second channel field, which is only available on native interface right now. Also remember that the expected channel order for LEDs is R G B C W (first channel is Red, second Green, etc...)</p>
+	  <p>In this configuration section, you have the ability to set up your device. Keep in mind that certain pin roles necessitate a second channel field, currently exclusive to the native interface. Additionally, note that the anticipated channel order for LEDs follows the sequence R (Red), G (Green), B (Blue), C (Custom), W (White), with the first channel corresponding to Red and so forth.</p>
       <div v-for="(role, index) in pins.roles" :key="index">
         <span class="pin-index">{{index}}</span>
         <select v-model="pins.roles[index]">
