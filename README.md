@@ -7,7 +7,7 @@ https://openbekeniot.github.io/webapp/
 The code is in the gh-pages branch!
 
 
-The web app is initiated by a very simple webpage on the device at http://(IP)/app
+The web app is initiated by a very simple webpage on the device at http://(IP)/
 
 The address the device redirects to defaults to this repo, but there is a configuration on the dveice, so you can host locally on your LAN for more security, or even from the device itself (via the device filesystem if present).
 
