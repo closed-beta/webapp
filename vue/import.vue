@@ -1,7 +1,7 @@
 
 <template>
   <div class="container">
-    Here you can import configuration from a template. Both OBK templates and Cloudcutter profiles are supported. Importing a profile may ovewrite your current pins/channels/startup command configuration, it will also clear LFS (autoexec.bat). 
+    In this section, you can import a configuration from a template. Both OBK templates and Cloudcutter profiles are compatible for importing. It's important to note that importing a profile may overwrite your existing pins, channels, and startup command configurations. Additionally, it will clear the LFS (autoexec.bat) settings. Exercise caution when performing this action.
     <div class="container">
       <div class="item"  style="width: 300px;">
         <h3>1. Enter template here</h3>
