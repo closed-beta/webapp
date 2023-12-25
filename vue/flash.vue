@@ -1,8 +1,8 @@
 <template>
     <div>
         <div>
-            Here you can read device flash directly. RF config is Beken internal configuration memory and OBK Config is our configuration structure.<br>
-            Here you can also recover your device from "MAC ends with 00 00 00 and is unable to change" bug. Button 'Restore RF config' will restore RF partition for T and N and set a random MAC address, but this also requires rebooting device later.<br>
+            In this section, you have the capability to directly read the device flash. The RF configuration pertains to Beken's internal configuration memory, while OBK Config refers to our configuration structure.<br>
+            Moreover, you can address the "MAC ends with 00 00 00 and is unable to change" bug by using the 'Restore RF config' button. This action will restore the RF partition for T and N, assigning a random MAC address. Keep in mind that this process requires a subsequent device reboot.<br>
             
 
             <table class="my-table">
